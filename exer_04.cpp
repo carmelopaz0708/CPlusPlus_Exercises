@@ -10,7 +10,6 @@ using namespace std;
 int main() {
     int num1;
     int num2;
-    cout << "--------------------------------------------";
     cout << "Enter first number: ";
     cin >> num1;
     cout << "Enter second number: ";
