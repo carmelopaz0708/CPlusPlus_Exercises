@@ -6,3 +6,5 @@ This is my own personal repository for solutions to C++ programming exercises. T
 
 Special thanks to [w3resource.com](https://www.w3resource.com/) for providing sample problems for individuals who have a passion for learning programming.
 
+
+exer_02.cpp code is absorbed onto exer_04.cpp
