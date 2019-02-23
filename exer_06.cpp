@@ -5,11 +5,8 @@
 
 #include <iostream>
 
-
 int main()
 {
-    using namespace std;
-    
     char gender = 'F';                                      // char is initialize with single quotes and one character
     bool isMarried = true;                                  // boolean takes only true or false values (1 or 0)
     short numberSons = 2;                                   
@@ -20,13 +17,13 @@ int main()
     unsigned long salaryDrawnUpTo = 12047235ul;             // indicate unsigned long with ul
     unsigned long long balance = 995324987ull;              // indicate unsigned long long with ull
     
-    cout << "Gender: " << gender;
-    cout << "\nMarried Status: " << isMarried;
-    cout << "\nNumber of Sons: " << numberSons;
-    cout << "\nYear Appointed: " << yearAppoint;
-    cout << "\nSalary per Year: " << salaryYear;
-    cout << "\nHeight: " << height;
-    cout << "\nGPA: " << gpa;
-    cout << "\nSalary Drawn Upto: " << salaryDrawnUpTo;
-    cout << "\nBalance: " << balance << endl;
+    std::cout << "Gender: " << gender;
+    std::cout << "\nMarried Status: " << isMarried;
+    std::cout << "\nNumber of Sons: " << numberSons;
+    std::cout << "\nYear Appointed: " << yearAppoint;
+    std::cout << "\nSalary per Year: " << salaryYear;
+    std::cout << "\nHeight: " << height;
+    std::cout << "\nGPA: " << gpa;
+    std::cout << "\nSalary Drawn Upto: " << salaryDrawnUpTo;
+    std::cout << "\nBalance: " << balance;
 }
