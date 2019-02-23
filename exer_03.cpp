@@ -5,8 +5,6 @@
 
 #include <iostream>
 
-using namespace std;
-
 int main() {
     char n_char;
     short n_short;
@@ -18,13 +16,13 @@ int main() {
     long double n_ldouble;
     bool n_bool;
     
-    cout << "char is " << sizeof(n_char) << " bytes." << endl;
-    cout << "short is " << sizeof(n_short) << " bytes." << endl;
-    cout << "int is " << sizeof(n_int) << " bytes." << endl;
-    cout << "long is " << sizeof(n_long) << " bytes." << endl;
-    cout << "long long is " << sizeof(n_llong) << " bytes." << endl;
-    cout << "float is " << sizeof(n_float) << " bytes." << endl;
-    cout << "double is " << sizeof(n_double) << " bytes." << endl;
-    cout << "long double is " << sizeof(n_ldouble) << " bytes." << endl;
-    cout << "bool is " << sizeof(n_bool) << " bytes." << endl;
+    std::cout << "char is " << sizeof(n_char) << " bytes.";
+    std::cout << "\nshort is " << sizeof(n_short) << " bytes.";
+    std::cout << "\nint is " << sizeof(n_int) << " bytes.";
+    std::cout << "\nlong is " << sizeof(n_long) << " bytes.";
+    std::cout << "\nlong long is " << sizeof(n_llong) << " bytes.";
+    std::cout << "\nfloat is " << sizeof(n_float) << " bytes.";
+    std::cout << "\ndouble is " << sizeof(n_double) << " bytes.";
+    std::cout << "\nlong double is " << sizeof(n_ldouble) << " bytes.";
+    std::cout << "\nbool is " << sizeof(n_bool) << " bytes.";
 }

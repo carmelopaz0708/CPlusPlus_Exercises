@@ -5,14 +5,12 @@
 
 #include <iostream>
 
-using namespace std;
-
 int main() {
     int num1;
     int num2;
-    cout << "Enter first number: ";
-    cin >> num1;
-    cout << "Enter second number: ";
-    cin >> num2;
-    cout << num1 << " + " << num2 << " = " << num1 + num2;
+    std::cout << "Enter first number: ";
+    std::cin >> num1;
+    std::cout << "Enter second number: ";
+    std::cin >> num2;
+    std::cout << num1 << " + " << num2 << " = " << num1 + num2;
 }
